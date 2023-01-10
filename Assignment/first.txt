@@ -1,0 +1,54 @@
+1. How we can use ssh in github and also write command to generate ssh keys in your respestive operating system.
+
+Copy the SSH public key to your clipboard.
+In the upper-right corner of any page, click your profile photo, then click Settings.
+In the "Access" section of the sidebar, click  SSH and GPG keys.
+Click New SSH key or Add SSH key.
+In the "Title" field, add a descriptive label for the new key. For example, if you're using a personal laptop, you might call this key "Personal laptop".
+Select the type of key, either authentication or signing. For more information about commit signing, see "About commit signature verification."
+Paste your key into the "Key" field.
+Click Add SSH key.
+If prompted, confirm access to your account on GitHub. For more information, see "Sudo mode."
+
+
+2. Write all commands from initialising to pushing your repo to github.
+
+commands are :
+git init
+git add "file name"
+git commit -m "message"
+git remote add origin URL_REPO
+git push origin master
+
+
+3. Deploy a static website using the same repo and add screen shot.
+
+   .........see repo....>
+
+4. Difference between static and dynamic website.
+
+Static Website: In Static Websites, Web pages are returned by the server 
+which are prebuilt source code files built using simple languages such as HTML,
+CSS, or JavaScript. There is no processing of content on the server (according to the user) 
+in Static Websites. Web pages are returned by the server with no change therefore, 
+static Websites are fast. There is no interaction with databases. Also, they 
+are less costly as the host does not need to support server-side processing with 
+different languages. 
+Dynamic Website: In Dynamic Websites, Web pages are returned by the server which
+are processed during runtime means they are not prebuilt web pages but they
+are built during runtime according to the user’s demand with the help of server-side
+scripting languages such as PHP, Node.js, ASP.NET and many more supported by the server.
+So, they are slower than static websites but updates and interaction with databases are possible.
+
+5. Steps you followed to connect github repo to your local repo.
+
+git init
+git add .
+git commit -m "message"
+git remote add origin URL_REPO
+git push origin master
+
+
+
+
+
