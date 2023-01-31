@@ -1,0 +1,171 @@
+
+#rect{
+    background-color: white;
+    margin: auto auto auto auto;
+    padding: 15px;
+    text-align: center;
+    max-width: 500px;
+    
+    border-radius: 10px;
+}
+
+
+img{
+    float: left;
+    width: 120px;
+    height: 40px;
+}
+
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+
+}
+
+body{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 100vh;
+
+    background-image: url(https://www.hitbullseye.com/images/school.svg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.wrapper{
+
+    width: 430px;
+
+    background: #fff;
+
+    border-radius: 10px;
+
+}
+
+.wrapper h1{
+
+    font-size: 25px;
+
+    font-weight: 500;
+
+    padding: 20px 25px;
+
+    border-bottom: 1px solid #ccc;
+
+}
+
+.wrapper .content{
+
+    margin: 25px 25px 35px;
+
+}
+
+.content .typing-input{
+
+    
+
+    z-index: -999;
+
+    opacity: 0;
+
+    position: absolute;
+
+}
+
+
+
+.content .inputs{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+}
+
+.inputs input{
+
+    height: 57px;
+
+    width: 56px;
+
+    margin: 4px;
+
+    font-size: 24px;
+
+    font-weight: 500;
+
+    background: none;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    color:green;
+
+    border-radius: 5px;
+
+    border: 1px solid #b5b5b5;
+
+}
+
+.inputs input:first-child{
+
+    margin-left: 0;
+
+}
+
+.content .details{
+
+    margin: 20px 0 25px;
+
+}
+
+.details p{
+
+    font-size: 19px;
+
+    margin-bottom: 10px;
+
+}
+
+.content .reset-btn{
+
+    width: 100%;
+
+    padding: 15px 0;
+
+    border: none;
+
+    outline: none;
+
+    border-radius: 5px;
+
+    font-size: 17px;
+
+    color: #fff;
+
+    background:green;
+
+    cursor: pointer;
+
+}
+
+
+
